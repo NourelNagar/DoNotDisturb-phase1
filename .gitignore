@@ -109,18 +109,38 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
 # Unused HouseInteriorPack assets (kept locally, untracked from git)
-Assets/nappin/HouseInteriorPack/Materials/
+Assets/nappin/HouseInteriorPack/Materials/*
 Assets/nappin/HouseInteriorPack/Materials.meta
-Assets/nappin/HouseInteriorPack/Prefabs/
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientDarkBrown.mat
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientDarkBrown.mat.meta
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientBlack.mat
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientBlack.mat.meta
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientGrey.mat
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientGrey.mat.meta
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientBrown.mat
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)GradientBrown.mat.meta
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)MetallicBlack.mat
+!Assets/nappin/HouseInteriorPack/Materials/(Mat)MetallicBlack.mat.meta
+Assets/nappin/HouseInteriorPack/Prefabs/*
 Assets/nappin/HouseInteriorPack/Prefabs.meta
-Assets/nappin/HouseInteriorPack/Textures/
+!Assets/nappin/HouseInteriorPack/Prefabs/(Prb)MediaConsole.prefab
+!Assets/nappin/HouseInteriorPack/Prefabs/(Prb)MediaConsole.prefab.meta
+Assets/nappin/HouseInteriorPack/Textures/*
 Assets/nappin/HouseInteriorPack/Textures.meta
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientDarkbrown.png
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientDarkbrown.png.meta
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientBlack.png
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientBlack.png.meta
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientGrey.png
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientGrey.png.meta
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientBrown.png
+!Assets/nappin/HouseInteriorPack/Textures/(Txt)GradientBrown.png.meta
 Assets/nappin/HouseInteriorPack/HouseInteriorPack.unity
 Assets/nappin/HouseInteriorPack/HouseInteriorPack.unity.meta
 Assets/nappin/HouseInteriorPack/readme.txt
 Assets/nappin/HouseInteriorPack/readme.txt.meta
 # Unused Models (keep only the 6 FBX files referenced by SampleScene)
-Assets/nappin/HouseInteriorPack/Models/
+Assets/nappin/HouseInteriorPack/Models/*
 Assets/nappin/HouseInteriorPack/Models.meta
 !Assets/nappin/HouseInteriorPack/Models/(Msh)KitchenSink.fbx
 !Assets/nappin/HouseInteriorPack/Models/(Msh)KitchenSink.fbx.meta
@@ -134,3 +154,5 @@ Assets/nappin/HouseInteriorPack/Models.meta
 !Assets/nappin/HouseInteriorPack/Models/(Msh)Storage2.fbx.meta
 !Assets/nappin/HouseInteriorPack/Models/(Msh)Toilet.fbx
 !Assets/nappin/HouseInteriorPack/Models/(Msh)Toilet.fbx.meta
+!Assets/nappin/HouseInteriorPack/Models/(Msh)MediaConsole.fbx
+!Assets/nappin/HouseInteriorPack/Models/(Msh)MediaConsole.fbx.meta
