@@ -39,6 +39,9 @@ public class GhostWander : MonoBehaviour
 
     private void Update()
     {
+        // Don't do anything if the agent isn't on a NavMesh
+        if (!_agent.isOnNavMesh) return;
+
         // If the agent has arrived (or has no path), count down to the next move
         if (!_agent.pathPending && _agent.remainingDistance <= _agent.stoppingDistance)
         {

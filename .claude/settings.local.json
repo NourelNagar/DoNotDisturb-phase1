@@ -7,7 +7,27 @@
       "mcp__UnityMCP__manage_gameobject",
       "mcp__UnityMCP__manage_components",
       "mcp__UnityMCP__manage_editor",
-      "mcp__UnityMCP__manage_camera"
+      "mcp__UnityMCP__manage_camera",
+      "Bash(git count-objects:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(find C:\\\\Users\\\\noore\\\\UnityProjects\\\\PA2\\\\Assets\\\\Materials:*)",
+      "Bash(find C:\\\\Users\\\\noore\\\\UnityProjects\\\\PA2\\\\Assets:*)",
+      "Read(//tmp/**)",
+      "Bash(find:*)",
+      "Bash(powershell:*)",
+      "Bash(xargs -I {} grep -l \"5f00a35557dee5b499cf97dda42339c0\\\\|7f64eac4bd640ef44ae0187dbfcb4089\\\\|3441f6441092d3c459a48c3c48ea63c6\\\\|c0999236ab32ad94fb08c06e6694fa49\\\\|31e87d42f3ffa2546b1f527e7a0a4b9d\" {})",
+      "Bash(git add:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(git commit:*)",
+      "Bash(grep:*)",
+      "mcp__UnityMCP__create_script",
+      "Bash(ls:*)",
+      "mcp__claude_ai_Claude_Docs__guide",
+      "mcp__claude_ai_Claude_Docs__batch",
+      "mcp__claude_ai_Claude_Docs__update",
+      "Bash(python3:*)"
     ]
   }
 }

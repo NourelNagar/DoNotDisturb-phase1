@@ -3,12 +3,37 @@ guid: a970ede366ad1a34b9df8374b2158596
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+    - first:
+        type: UnityEngine:Material
+        assembly: UnityEngine.CoreModule
+        name: GradientDarkBrown
+      second: {fileID: 2100000, guid: 5f00a35557dee5b499cf97dda42339c0, type: 2}
+    - first:
+        type: UnityEngine:Material
+        assembly: UnityEngine.CoreModule
+        name: GradientBlack
+      second: {fileID: 2100000, guid: 7f64eac4bd640ef44ae0187dbfcb4089, type: 2}
+    - first:
+        type: UnityEngine:Material
+        assembly: UnityEngine.CoreModule
+        name: GradientGrey
+      second: {fileID: 2100000, guid: 3441f6441092d3c459a48c3c48ea63c6, type: 2}
+    - first:
+        type: UnityEngine:Material
+        assembly: UnityEngine.CoreModule
+        name: GradientBrown
+      second: {fileID: 2100000, guid: c0999236ab32ad94fb08c06e6694fa49, type: 2}
+    - first:
+        type: UnityEngine:Material
+        assembly: UnityEngine.CoreModule
+        name: MetallicBlack
+      second: {fileID: 2100000, guid: 31e87d42f3ffa2546b1f527e7a0a4b9d, type: 2}
   materials:
-    materialImportMode: 0
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
